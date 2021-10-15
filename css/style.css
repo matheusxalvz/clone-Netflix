@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;  
+    font-family:Helvetica, sans-serif;  
+}
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)
+      ), url(https://assets.nflxext.com/ffe/siteui/vlv3/9b3267c9-5086-4550-92f1-eddc22a1f78e/9e812db0-7402-4b86-a62d-cc985c0162d7/BR-pt-20211004-popsignuptwoweeks-perspective_alpha_website_medium.jpg)  ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height:705px;
+    border-bottom: 8px solid rgb(41, 39, 39);
+}
+.logo{
+    margin: 5px 0 0 15px;
+    width:136px;
+    height:36px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav li a{
+     width:50px;          
+     background-color: red;
+     font-size: 16px;
+     padding: 8px 17px;
+     border-radius: 5px;
+     text-decoration: none;
+  
+   
+}
+.texto-principal{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+h2{
+    font-size:1.625rem;
+    font-weight: 200;
+    margin: 15px 0px;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+form{
+    display: flex;
+}
+#email{
+    width:400px;
+    height:50px;
+}
+#email::placeholder{
+    padding-left: 10px;
+    font-size: 18px;
+}
+#btn-vamos{
+    width:200px;
+    height:54px;
+    background-color: red;
+    font-size: 20px;
+    margin-left: 2px;
+    border: none;
+}
+section{       
+    background-color: black;
+    border-bottom: 8px solid rgb(41, 39, 39);
+    height: 500px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    
+}
+.perguntas{
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    padding: 70px;
+    background-color: black;
+    border-bottom: 8px solid rgb(41, 39, 39);
+    
+    
+}
+.pergunta{
+    margin-top: 10px;
+    width:750px;
+    height:74px;
+    background-color:rgb(41, 39, 39);
+    padding: 0 20px;
+    cursor:pointer;
+}
+.resposta{
+    width: 750px;
+    background-color: rgb(41, 39, 39);
+    padding: 0 20px;
+    margin-top: 1px;
+    display: none
+}
+.mudarDisplay{
+    display: block;
+    width: 750px;
+    background-color: rgb(41, 39, 39);
+    padding: 0 20px;
+    margin-top: 1px;
+}
+.grid-footer, .footer-titulo{
+    display: grid;
+    width: 800px;    
+    grid-template-columns: 300px 200px 200px 200px; 
+    padding-top: 30px;
+    margin: 0 auto;
+}
+footer{
+    background-color: black;
+}
+
+footer p{
+    color:  rgb(131, 124, 124);
+    font-size: 12px;
+    line-height: 25px;
+}
+.footer-titulo h4{
+    color:  rgb(131, 124, 124);
+}
+   
+
+
